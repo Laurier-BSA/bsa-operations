@@ -213,3 +213,13 @@ Check by hand:
 - **No backup exists.** All photos live only on the Oracle VM. See the note's risk table.
 - Lychee image is `:latest`; pin it before the next restart.
 - Lychee restarted once (about 30 s down) to add the error-page mount.
+
+## 2026-10-14 · GitHub: ops folder repo, gallery pushed, pipeline doc (asked in session)
+What changed:
+- New private repo https://github.com/Laurier-BSA/bsa-operations for this whole folder (plans, Plan MDs, SU Policies, CLAUDE.md, helper agents). `photo-storage/`, `.DS_Store`, `.cursor/` and `.claude/settings.local.json` are ignored. Added `README.md`.
+- https://github.com/Laurier-BSA/photo-storage pushed: Share buttons, error page, Albums menu link (logged-in users), sidebar logo alignment, `PIPELINE.md`, `LYCHEE-PERMISSIONS.md`, and copies of the server's compose and Caddy files in `oracle/server/`.
+- CLAUDE.md: new GitHub section. Commit and push after each finished item.
+Check by hand:
+- Open the sidebar logged in, on phone and laptop: Albums link at the top, logo lined up with the icons.
+- On GitHub, click Watch → All Activity on both repos if you want emails.
+- Plans mention a few member emails (e.g. Syed's mylaurier). Fine in a private repo; keep the repos private.
