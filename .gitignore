@@ -1,0 +1,6 @@
+# Own repo: https://github.com/Laurier-BSA/photo-storage
+photo-storage/
+
+.DS_Store
+.claude/settings.local.json
+.cursor/
