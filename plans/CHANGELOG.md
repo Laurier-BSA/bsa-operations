@@ -253,3 +253,12 @@ Check by hand:
 - The flower-wall photo has no date or album. Which event was it? It sits under "Culture & heritage" with no event name.
 - Add Social Mixer (23 Sep 2025) to Notion Initiatives so the records match.
 - laurierbsa.org: renew at IONOS before about 23 Nov (plans/specs/website-2026-10-30.md §9).
+
+## 2026-10-30 · Paint & Chai date on the website (asked in session)
+What changed:
+- Website: Paint & Chai is now Sat 14 Nov 2026 (Safdar confirmed). Shown with no start time until the room is booked; the calendar file is all-day.
+- Notion was not changed (the write was declined): the Initiatives row still has no Date.
+Check by hand:
+- SU 21-day rule: a gathering on 14 Nov needed its Rubric event form in by Fri 24 Oct (the Notion page lists that due date). Confirm it went in.
+- Rubric still lists Paint & Chai on Wed 18 Nov, 6 PM. Change it there, then send me the start time.
+- Set the Date on the Notion Initiatives row.
