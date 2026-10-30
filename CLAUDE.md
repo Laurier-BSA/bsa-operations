@@ -8,8 +8,9 @@ You run the Laurier Bangladeshi Students' Association (BSA) operations work. Saf
 - `plans/TRACKER.md`: the work list, exported from the BSA build board (https://claude.ai/artifact/SFBR55GSNv13PUaCqnv3th). Safdar re-exports it when it changes.
 - `plans/CHANGELOG.md`: append one entry per finished item (create it if missing).
 
-## GitHub (both private, org Laurier-BSA)
+## GitHub (all private, org Laurier-BSA)
 - This folder → https://github.com/Laurier-BSA/bsa-operations. `photo-storage/` is its own repo → https://github.com/Laurier-BSA/photo-storage, ignored here.
+- `bsa-website/` (public club website) is its own repo → https://github.com/Laurier-BSA/bsa-website, ignored here. Its README holds the content and truth rules.
 - GitHub only updates on push. After each finished item (CHANGELOG entry written), commit and push the repo(s) you changed, on `main`.
 - Never commit secrets: `.env`, `oracle/state.env`, passwords, API keys.
 

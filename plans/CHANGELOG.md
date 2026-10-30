@@ -223,3 +223,19 @@ Check by hand:
 - Open the sidebar logged in, on phone and laptop: Albums link at the top, logo lined up with the icons.
 - On GitHub, click Watch → All Activity on both repos if you want emails.
 - Plans mention a few member emails (e.g. Syed's mylaurier). Fine in a private repo; keep the repos private.
+
+## 2026-10-30 · Public website, Phase 1 (no tracker id; asked in session)
+What changed:
+- New site in `bsa-website/` (its own repo, ignored here like `photo-storage/`): Next.js static export for Cloudflare Pages. Home, Events, About, Join, Contact, 404, per-event calendar files, share card. Headline: "A little Bangladesh at Laurier."
+- Content from Notion (Initiatives rows with Status Done, Team Directory current execs), the Rubric club page and the club Linktree. Paint & Chai (18 Nov) is the only upcoming event; the flagship and Boshontoboron 2027 are in the data but hidden (`publish: false`).
+- Exec cards show roles only. No names until each person agrees (`consentGiven`).
+- The Gemini brief had wrong facts, now corrected: email is laurier.bsa@outlook.com (not Gmail), Rubric link is campus.hellorubric.com/?s=13650 (not rubric.ca), and its venues and event details were made up.
+- Research, decisions and the full self-audit: plans/specs/website-2026-10-30.md. Lint, types, build and axe (0 violations) pass.
+- No Notion changes.
+Check by hand:
+- Create the empty private repo Laurier-BSA/bsa-website on GitHub (the Claude app got a 403 creating it), then push `bsa-website/`.
+- Connect it in Cloudflare Pages (bsa-website/README.md, "Deploy").
+- Ask each exec about their name on the site; flip `consentGiven` in `src/data/team.ts`.
+- Check the Bangla (বসন্ত বরণ, খেলা হবে) and the line "Open to every Laurier student".
+- Notion: Paint & Chai has no Date; Rubric says 18 Nov, 6 PM.
+- Ask the AVP if the poster logo rule covers a website.
