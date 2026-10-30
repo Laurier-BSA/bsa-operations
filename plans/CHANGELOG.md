@@ -239,3 +239,17 @@ Check by hand:
 - Check the Bangla (বসন্ত বরণ, খেলা হবে) and the line "Open to every Laurier student".
 - Notion: Paint & Chai has no Date; Rubric says 18 Nov, 6 PM.
 - Ask the AVP if the poster logo rule covers a website.
+
+## 2026-10-30 · Website pushed + Lychee photos (asked in session)
+What changed:
+- Site is on GitHub: https://github.com/Laurier-BSA/bsa-website (`main`).
+- Photos from the Lychee gallery (laurierbsa.duckdns.org) on Home (one per "What we do" row), About (Soco Hoco group) and Events (Soco Hoco, Food Justice Garden). Resized to WebP, location metadata stripped, copied into the repo so the site doesn't depend on the Oracle VM.
+- Social Mixer (23 Sep 2025) added to past events, from the welcome slide in the Lychee photos. It isn't in Notion Initiatives.
+- Exec titles now match the Meet the Team · Fall 2026 posters (Co-President, VP, Director; Media team).
+- Not deployed until people say yes: the 14 Meet the Team posters and the exec dinner group photo (15 Oct), kept in the repo's `assets/`.
+Check by hand:
+- Connect the repo in Cloudflare Pages (bsa-website/README.md, "Deploy").
+- Are the Meet the Team posters already public on Instagram? If yes, ask each exec about the website too, then switch them on per person.
+- The flower-wall photo has no date or album. Which event was it? It sits under "Culture & heritage" with no event name.
+- Add Social Mixer (23 Sep 2025) to Notion Initiatives so the records match.
+- laurierbsa.org: renew at IONOS before about 23 Nov (plans/specs/website-2026-10-30.md §9).
