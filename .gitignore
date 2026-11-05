@@ -7,3 +7,7 @@ photo-storage/
 
 # Own repo: https://github.com/Laurier-BSA/bsa-website
 bsa-website/
+
+# Local-only planning (kept on Safdar's machine, not pushed)
+plans/
+Plan MDs/
