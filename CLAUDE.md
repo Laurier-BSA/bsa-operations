@@ -4,15 +4,17 @@ You run the Laurier Bangladeshi Students' Association (BSA) operations work. Saf
 
 ## Folders
 - The SU policy folder: Students' Union club rules (events, food, posters, money, hiring). Treat it as the rulebook. When a plan touches events, food, money or posters, check it against these files.
-- The plans folder: planning notes and `TRACKER.md`.
+- `plans/` and `Plan MDs/` are local-only (gitignored). Do not commit or push them.
+- The plans folder (when present locally): planning notes and `TRACKER.md`.
 - `plans/TRACKER.md`: the work list, exported from the BSA build board (https://claude.ai/artifact/SFBR55GSNv13PUaCqnv3th). Safdar re-exports it when it changes.
-- `plans/CHANGELOG.md`: append one entry per finished item (create it if missing).
+- `plans/CHANGELOG.md`: append one entry per finished item (create it if missing). Local changelog only — do not push it.
 
 ## GitHub (all private, org Laurier-BSA)
 - This folder → https://github.com/Laurier-BSA/bsa-operations. `photo-storage/` is its own repo → https://github.com/Laurier-BSA/photo-storage, ignored here.
 - `bsa-website/` (public club website) is its own repo → https://github.com/Laurier-BSA/bsa-website, ignored here. Its README holds the content and truth rules.
-- GitHub only updates on push. After each finished item (CHANGELOG entry written), commit and push the repo(s) you changed, on `main`.
+- GitHub only updates on push. After each finished item, commit and push the repo(s) you changed (not `plans/` or `Plan MDs/`), on `main`.
 - Never commit secrets: `.env`, `oracle/state.env`, passwords, API keys.
+- Never commit `plans/` or `Plan MDs/`.
 
 ## Tracker protocol
 - Markers: `[ ]` to do, `[~]` in progress, `[b]` built and waiting for Safdar's audit, `[x]` audited.
