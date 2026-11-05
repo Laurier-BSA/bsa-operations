@@ -1,5 +1,17 @@
 # BSA changelog
 
+## 2026-11-05 · Gallery on photos.laurierbsa.ca (no tracker id; asked in chat)
+What changed:
+- Public gallery address is now https://photos.laurierbsa.ca (was https://laurierbsa.duckdns.org).
+- Cloudflare Worker `bsa-photos-proxy` on the `laurierbsa` account terminates HTTPS and proxies to the Oracle Lychee origin. Hosts: `photos.laurierbsa.ca` (canonical), `www.photos.laurierbsa.ca` (301 → canonical), `laurierbsa.duckdns.org` (origin/fallback).
+- Lychee `APP_URL` set to https://photos.laurierbsa.ca; Caddy accepts the three hostnames.
+- Code/docs in https://github.com/Laurier-BSA/photo-storage (`oracle/cloudflare-photos-proxy/`, `PIPELINE.md`, server compose/Caddy copies). Website sync default URL updated in `bsa-website`.
+Check by hand:
+- Open https://photos.laurierbsa.ca, log in, copy a Share link, and confirm it uses `photos.laurierbsa.ca` not duckdns.
+- Turn on Cloudflare domain auto-renew for `laurierbsa.ca` if you want it (registrar email said Auto-renew: Off).
+- Update Instagram bio / Linktree / any printed QR that still points at duckdns.
+- Tick this on the build board if you add a board card for it.
+
 ## 2026-09-25 · Direction: light on facilities (no tracker id; asked in chat)
 What changed:
 - SU Guides & Policies: added "BSA: 2026-27 direction: light on facilities" (https://app.notion.com/p/3e6ac90c76f18129ad3cd3d0cd53f3dd) and "BSA: Awareness posts on world news" (https://app.notion.com/p/3e6ac90c76f18186b1abc8c974476abc).
